@@ -11,7 +11,6 @@
 		408FC3CF2C4C00AA001E95AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3CE2C4C00AA001E95AE /* ContentView.swift */; };
 		408FC3D12C4C00AD001E95AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408FC3D02C4C00AD001E95AE /* Assets.xcassets */; };
 		408FC3D42C4C00AD001E95AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408FC3D32C4C00AD001E95AE /* Preview Assets.xcassets */; };
-		408FC3DE2C4C00AD001E95AE /* SchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3DD2C4C00AD001E95AE /* SchoolAppTests.swift */; };
 		408FC3E82C4C00AD001E95AE /* SchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3E72C4C00AD001E95AE /* SchoolAppUITests.swift */; };
 		408FC3EA2C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3E92C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift */; };
 		408FC3FC2C4C019D001E95AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3FB2C4C019D001E95AE /* SignInView.swift */; };
@@ -37,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		408ECCEA2C4D4DBE0007AE33 /* Jenkinsfile.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Jenkinsfile.md; sourceTree = "<group>"; };
 		408FC3C92C4C00A9001E95AE /* SchoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC3CC2C4C00A9001E95AE /* SchoolAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppApp.swift; sourceTree = "<group>"; };
 		408FC3CE2C4C00AA001E95AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		408FC3D02C4C00AD001E95AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408FC3D32C4C00AD001E95AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		408FC3D92C4C00AD001E95AE /* SchoolAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		408FC3DD2C4C00AD001E95AE /* SchoolAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppTests.swift; sourceTree = "<group>"; };
 		408FC3E32C4C00AD001E95AE /* SchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC3E72C4C00AD001E95AE /* SchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppUITests.swift; sourceTree = "<group>"; };
 		408FC3E92C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		408FC3C02C4C00A9001E95AE = {
 			isa = PBXGroup;
 			children = (
+				408ECCEA2C4D4DBE0007AE33 /* Jenkinsfile.md */,
 				408FC3CB2C4C00A9001E95AE /* SchoolApp */,
 				408FC3DC2C4C00AD001E95AE /* SchoolAppTests */,
 				408FC3E62C4C00AD001E95AE /* SchoolAppUITests */,
@@ -123,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				408FC3FF2C4C10DB001E95AE /* SignInViewTest.swift */,
-				408FC3DD2C4C00AD001E95AE /* SchoolAppTests.swift */,
 			);
 			path = SchoolAppTests;
 			sourceTree = "<group>";
@@ -318,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				408FC4022C4C1326001E95AE /* SignInViewTest.swift in Sources */,
-				408FC3DE2C4C00AD001E95AE /* SchoolAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
