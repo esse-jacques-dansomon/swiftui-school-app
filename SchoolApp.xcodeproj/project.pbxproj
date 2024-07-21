@@ -14,6 +14,9 @@
 		408FC3DE2C4C00AD001E95AE /* SchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3DD2C4C00AD001E95AE /* SchoolAppTests.swift */; };
 		408FC3E82C4C00AD001E95AE /* SchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3E72C4C00AD001E95AE /* SchoolAppUITests.swift */; };
 		408FC3EA2C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3E92C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift */; };
+		408FC3FC2C4C019D001E95AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3FB2C4C019D001E95AE /* SignInView.swift */; };
+		408FC3FE2C4C01B8001E95AE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3FD2C4C01B8001E95AE /* SignUpView.swift */; };
+		408FC4022C4C1326001E95AE /* SignInViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC3FF2C4C10DB001E95AE /* SignInViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		408FC3E32C4C00AD001E95AE /* SchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC3E72C4C00AD001E95AE /* SchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppUITests.swift; sourceTree = "<group>"; };
 		408FC3E92C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		408FC3FB2C4C019D001E95AE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		408FC3FD2C4C01B8001E95AE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		408FC3FF2C4C10DB001E95AE /* SignInViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		408FC3CB2C4C00A9001E95AE /* SchoolApp */ = {
 			isa = PBXGroup;
 			children = (
+				408FC3F72C4C011A001E95AE /* Root */,
+				408FC3F62C4C0110001E95AE /* App */,
+				408FC3F82C4C012D001E95AE /* Core */,
 				408FC3CC2C4C00A9001E95AE /* SchoolAppApp.swift */,
 				408FC3CE2C4C00AA001E95AE /* ContentView.swift */,
 				408FC3D02C4C00AD001E95AE /* Assets.xcassets */,
@@ -113,6 +122,7 @@
 		408FC3DC2C4C00AD001E95AE /* SchoolAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				408FC3FF2C4C10DB001E95AE /* SignInViewTest.swift */,
 				408FC3DD2C4C00AD001E95AE /* SchoolAppTests.swift */,
 			);
 			path = SchoolAppTests;
@@ -125,6 +135,45 @@
 				408FC3E92C4C00AD001E95AE /* SchoolAppUITestsLaunchTests.swift */,
 			);
 			path = SchoolAppUITests;
+			sourceTree = "<group>";
+		};
+		408FC3F62C4C0110001E95AE /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		408FC3F72C4C011A001E95AE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		408FC3F82C4C012D001E95AE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				408FC3FA2C4C017F001E95AE /* SignIn */,
+				408FC3F92C4C0169001E95AE /* Signup */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		408FC3F92C4C0169001E95AE /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				408FC3FD2C4C01B8001E95AE /* SignUpView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		408FC3FA2C4C017F001E95AE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				408FC3FB2C4C019D001E95AE /* SignInView.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408FC3FE2C4C01B8001E95AE /* SignUpView.swift in Sources */,
+				408FC3FC2C4C019D001E95AE /* SignInView.swift in Sources */,
 				408FC3CF2C4C00AA001E95AE /* ContentView.swift in Sources */,
 				408FC3CD2C4C00AA001E95AE /* SchoolAppApp.swift in Sources */,
 			);
@@ -266,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408FC4022C4C1326001E95AE /* SignInViewTest.swift in Sources */,
 				408FC3DE2C4C00AD001E95AE /* SchoolAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

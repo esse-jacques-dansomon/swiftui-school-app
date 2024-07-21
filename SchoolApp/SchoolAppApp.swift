@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SchoolAppApp: App {
+    
+    @State var email: String = ""
+    @State var password: String = ""
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInView(email: $email, password: $password)
         }
     }
 }
